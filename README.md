@@ -1,4 +1,4 @@
-# Transparent Background Everlife - Terminal & CLI Theme
+# Everlife - Transparent Background Theme for Terminals and CLIs
 
 A beautiful, minimalistic transparent terminal theme optimized for **modern terminals** and **AI-powered CLI tools**. Seamless visual integration between your terminal environment and AI coding assistants.
 
