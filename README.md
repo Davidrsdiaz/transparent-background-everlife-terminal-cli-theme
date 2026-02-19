@@ -23,6 +23,12 @@ When using AI-powered CLI tools inside your terminal, mismatched colors create v
 
 ## Quick Start
 
+### One-Line Install
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Davidrsdiaz/transparent-background-everlife-terminal-cli-theme/main/install.sh | bash
+```
+
 ### For Terminal Users
 
 ```bash
@@ -71,12 +77,14 @@ cp cli-tools/gemini-cli/settings.json ~/.gemini/settings.json
 |------|--------------|---------------|-------|
 | [OpenCode](cli-tools/opencode/) | ✅ **Custom themes** | JSON theme file | Full theme customization |
 | [Gemini CLI](cli-tools/gemini-cli/) | ✅ **Custom themes** | settings.json | Built-in + custom themes |
-| [Every Code](cli-tools/every-code/) | ✅ **Custom themes** | Theme config | Codex fork with theming |
+| [Every Code](cli-tools/every-code/) | ✅ **Custom themes** | theme.toml | Codex fork with theming |
 | [Claude Code](cli-tools/claude-code/) | ⚠️ 6 built-in themes | `/config` command | Feature request for custom themes |
 | [Amazon Q/Kiro](cli-tools/amazon-q/) | ⚠️ Light/Dark only | `q settings theme` | Limited theme options |
 | [Aider](cli-tools/aider/) | ✅ **Inherits terminal** | None needed | Uses terminal colors automatically |
 | [Continue CLI](cli-tools/continue/) | ✅ **Inherits terminal** | None needed | Uses terminal colors automatically |
 | [Goose CLI](cli-tools/goose/) | ✅ **Inherits terminal** | None needed | Uses terminal colors automatically |
+| [Crush CLI](cli-tools/crush-cli/) | ✅ **Inherits terminal** | None needed | CharmBracelet AI agent |
+| [Codex CLI](cli-tools/codex-cli/) | ✅ **Inherits terminal** | None needed | OpenAI's official CLI |
 
 > [!NOTE]
 > ✅ **Inherits terminal** means the CLI automatically uses your terminal's configured colors - no additional setup needed! These tools work perfectly with our terminal configs.
@@ -148,6 +156,16 @@ fi
 transparent-background-everlife-terminal-cli-theme/
 ├── README.md
 ├── LICENSE
+├── CONTRIBUTING.md
+├── install.sh              # Quick install script
+├── .gitignore
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       ├── feature_request.md
+│       └── question.md
+├── screenshots/
+│   └── README.md
 ├── terminals/
 │   ├── ghostty/
 │   │   ├── README.md
@@ -165,7 +183,8 @@ transparent-background-everlife-terminal-cli-theme/
 │   │   ├── README.md
 │   │   └── kitty.conf
 │   ├── iterm2/
-│   │   └── README.md
+│   │   ├── README.md
+│   │   └── Everlife.itermcolors
 │   ├── warp/
 │   │   ├── README.md
 │   │   └── everlife.yaml
@@ -190,6 +209,10 @@ transparent-background-everlife-terminal-cli-theme/
 │   │   └── README.md
 │   ├── goose/
 │   │   └── README.md
+│   ├── crush-cli/
+│   │   └── README.md
+│   ├── codex-cli/
+│   │   └── README.md
 │   └── every-code/
 │       ├── README.md
 │       └── theme.toml
@@ -199,8 +222,10 @@ transparent-background-everlife-terminal-cli-theme/
 
 ## Screenshots
 
+See [screenshots/](screenshots/) for examples.
+
 > [!NOTE]
-> Screenshots coming soon! Feel free to submit a PR with your own.
+> Screenshots welcome! See [screenshots/README.md](screenshots/README.md) for guidelines on contributing.
 
 ## Credits
 
@@ -211,6 +236,8 @@ transparent-background-everlife-terminal-cli-theme/
 - **OpenCode** - [opencode.ai](https://opencode.ai)
 
 ## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 Contributions welcome! Feel free to:
 - Add support for more terminals

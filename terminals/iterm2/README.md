@@ -4,13 +4,20 @@ iTerm2 uses a `.itermcolors` profile file for color schemes. Transparency settin
 
 ## Installation
 
-### 1. Import Color Profile
+### 1. Download Theme File
+
+```bash
+# Download the .itermcolors file
+curl -O https://raw.githubusercontent.com/Davidrsdiaz/transparent-background-everlife-terminal-cli-theme/main/terminals/iterm2/Everlife.itermcolors
+```
+
+### 2. Import Color Profile
 
 1. Open iTerm2
 2. Go to **Preferences** (Cmd+,)
 3. Navigate to **Profiles** → **Colors**
 4. Click **Color Presets...** → **Import...**
-5. Select an Everlife `.itermcolors` file (create from our palette)
+5. Select the downloaded `Everlife.itermcolors` file
 6. Click **Color Presets...** → Select **Everlife**
 
 ### 2. Enable Transparency
