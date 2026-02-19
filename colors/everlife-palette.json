@@ -1,0 +1,64 @@
+{
+  "name": "Everlife",
+  "description": "Beautiful minimalistic transparent terminal theme inspired by Everforest",
+  "version": "1.0.0",
+  "author": "davidrsdiaz",
+  "repository": "https://github.com/Davidrsdiaz/transparent-background-everlife-terminal-cli-theme",
+  "colors": {
+    "background": "#1e2326",
+    "foreground": "#d3c6aa",
+    "cursor": "#e69875",
+    "cursorText": "#4c3743",
+    "selection": "#4c3743",
+    "selectionForeground": "#d3c6aa"
+  },
+  "ansi": {
+    "black": "#7a8478",
+    "red": "#e67e80",
+    "green": "#a7c080",
+    "yellow": "#dbbc7f",
+    "blue": "#7fbbb3",
+    "magenta": "#d699b6",
+    "cyan": "#83c092",
+    "white": "#f2efdf"
+  },
+  "bright": {
+    "black": "#a6b0a0",
+    "red": "#f85552",
+    "green": "#8da101",
+    "yellow": "#dfa000",
+    "blue": "#3a94c5",
+    "magenta": "#df69ba",
+    "cyan": "#35a77c",
+    "white": "#fffbef"
+  },
+  "semantic": {
+    "primary": "#7fbbb3",
+    "secondary": "#d699b6",
+    "accent": "#83c092",
+    "success": "#a7c080",
+    "warning": "#dbbc7f",
+    "error": "#e67e80",
+    "info": "#7fbbb3"
+  },
+  "agent": {
+    "plan": "#a277ff",
+    "build": "#EC5B2B"
+  },
+  "transparency": {
+    "strong": {
+      "opacity": 0.20,
+      "blur": 20,
+      "range": { "opacity": [0.15, 0.25], "blur": [15, 25] }
+    },
+    "light": {
+      "opacity": 0.35,
+      "blur": 25,
+      "range": { "opacity": [0.25, 0.50], "blur": [20, 30] }
+    }
+  },
+  "fonts": {
+    "recommended": ["JetBrains Mono", "JetBrainsMono Nerd Font", "Fira Code", "Cascadia Code"],
+    "size": { "min": 12, "max": 18, "default": 14 }
+  }
+}

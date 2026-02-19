@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "transparent-everlife",
+  "agent": {
+    "plan": {
+      "color": "#a277ff"
+    },
+    "build": {
+      "color": "#EC5B2B"
+    }
+  }
+}
