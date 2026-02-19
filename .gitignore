@@ -10,9 +10,10 @@
 Thumbs.db
 Desktop.ini
 
-# Screenshots (keep placeholder)
+# Screenshots (keep placeholder and readme)
 screenshots/*
 !screenshots/.gitkeep
+!screenshots/README.md
 
 # Logs
 *.log

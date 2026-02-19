@@ -11,6 +11,24 @@ When using AI-powered CLI tools inside your terminal, mismatched colors create v
 3. **AI-ready** - Pre-configured for CLI AI tools with theme selectors
 4. **Minimalistic** - Clean, distraction-free aesthetic
 
+## The Secret Ingredient: Your Desktop Background
+
+Transparent terminals shine brightest with a beautiful desktop wallpaper.
+
+| Style | Effect |
+|-------|--------|
+| Static wallpapers | Clean, consistent backdrop |
+| Animated wallpapers | Dynamic, living terminal |
+| Gradient/abstract | Minimal distraction |
+| Nature/landscape | Calm, organic feel |
+
+> [!TIP]
+> The 15-25% strong transparency lets your wallpaper become part of your terminal aesthetic. Choose wallpapers with softer gradients for readability, darker tones for text contrast, or nature scenes for a calm coding environment.
+
+**Your terminal becomes a window into your aesthetic.** 🌿
+
+See [WALLPAPER-GUIDE.md](WALLPAPER-GUIDE.md) for wallpaper recommendations and color harmony tips.
+
 ## Transparency Recommendations
 
 | Style | Opacity | Description |
@@ -157,6 +175,7 @@ transparent-background-everlife-terminal-cli-theme/
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
+├── WALLPAPER-GUIDE.md       # Desktop aesthetic tips
 ├── install.sh              # Quick install script
 ├── .gitignore
 ├── .github/
